@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="css-js/my.css">
+</head>
+
+<body>
+
+   <nav>
+      <a href="index.html">Exercise 1 - 4</a>
+      <a href="tweet.html">Exercise 5 (Tweet)</a>
+      <a class="selected" href="registration.html">Exercise 6 (Registration)</a>
+   </nav>
+
+   <section class="section-regis">
+      <div class="create-user">
+         <h2>Registration</h2>
+         <div class="regis-div">
+            <input placeholder="Username" type="text" name="" id="user-name">
+            <label class="alert hidden" for="">username tidak boleh kosong dan minimal 6 karakter !</label>
+            <input placeholder="Password" type="password" name="" id="user-pass">
+            <label class="alert hidden" for="">password tidak boleh kosong dan minimal 8 karakter !</label>
+            <br>
+            <button id="btn-submit-user" class="btn" type="submit">Submit</button>
+         </div>
+      </div>
+
+      <div class="hr">
+         <hr>
+      </div>
+
+      <div class="user-list">
+         <h2>List Registration</h2>
+         <div id="user-list" class="per-user-list">
+
+         </div>
+      </div>
+   </section>
+
+   <script src="css-js/my.js"></script>
+</body>
+
+</html>
